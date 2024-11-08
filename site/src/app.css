@@ -1,0 +1,288 @@
+.parent-class{
+    height:100%;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+header{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+
+footer{
+    background-color: red;
+}
+
+.header-left{
+    float:left;
+    margin-left: 10px;
+    color: #30302e;
+}
+
+.header-right{
+    float:right;
+    margin-right: 10px;
+    color: #30302e;
+}
+
+
+a{
+    text-decoration: none;
+    color:blue
+}
+
+a:visited{
+    color:#30302e;
+}
+
+a:hover{
+    color:black;
+}
+
+.nav-svg{
+    height:40px;
+    margin-top: 13px;
+    
+}
+
+.footer-svg{
+    /* padding-top: 20px;
+    padding-bottom: 10px; */
+    color: black;
+    /* height:100% */
+}
+
+.footer-title{
+    text-align: center;
+    display:flex;
+    align-items:center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.footer-inside{
+    display:inline-block;
+    margin-left: 10px;
+}
+
+.header-card{
+    height:100%;
+    margin-top: 0px;
+    /* padding: 100%; */
+    align-self: center;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:#30302e;
+}
+
+.about-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.new-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    width: 50%;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.about-content{ 
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-form{
+
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.form-content{ 
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.main-link-index{
+    color:blue;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.register-form{
+
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.form-button{
+    background-color: lightblue;
+    cursor:pointer;
+    border: 0px;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.new-post-button{
+    background-color: lightblue;
+    cursor:pointer;
+    border: 0px;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;
+    /* margin-bottom:5px; */
+}
+
+input{
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.websocket-content{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    /* text-align: center; */
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.index-links{
+    display: block;
+}
+
+.post-comments{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span{
+    margin-left: 20px;
+}
+
+#post-input{
+    resize:none;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .post-content{
+        width: 90%;
+    }
+
+    .post-comments{
+        width: 90%;
+    }
+
+    .dissapearing-bar-item{
+        display:none;
+    }
+
+    .form-img{
+        width: 90%;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .new-img{
+        width: 90%;
+    }
+
+    .about-content{
+        width: 90%;
+        
+    }
+
+    .websocket-content{
+        width: 90%;
+    }
+
+    #post-input{
+        width:90%;
+    }
+}
+
+a.main-link{
+    color:blue;
+}
+
+.comment-label{
+    padding:20px;
+    margin:20px;
+}
